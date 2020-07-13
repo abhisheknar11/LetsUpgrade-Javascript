@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JavaScript</title>
+	
+</head>
+
+<body>
+	<h1>First JS demo</h1>
+	<p id="demo"></p>
+	
+
+<script>
+
+var d = new Date();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+document.getElementById("demo").innerHTML ="Today is : " +days[d.getDay()]+".";
+
+/*var time = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+document.getElementById("demo2").innerHTML ="Current Time is: " +time;
+*/
+
+// get hour value.  
+var hours = d.getHours(); 
+		var ampm = hours >= 12 ? 'PM' : 'AM'; 
+		hours = hours % 12; 
+		hours = hours ? hours : 12; 
+		var minutes = d.getMinutes(); 
+		minutes = minutes < 10 ? '0' + minutes : minutes; 
+		var myTime = hours + " " + ampm + " : " + minutes + 
+			" : " + d.getMilliseconds(); 
+		document.write("\tCurrent time is : " + myTime);
+
+</script>
+</body>
+</html>
+
+
+
+
