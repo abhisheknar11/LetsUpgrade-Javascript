@@ -1,0 +1,19 @@
+1. var :  To declare the variable
+
+    var x = 2; 
+    x = 3;  // Now x is 3
+
+2. let : The variable cannot be declared again
+    example:
+        let x=5
+        let x=10 //This is not allowed
+    but,
+        let x=5
+        x=10  //This is allowed
+
+3.const : If the variable is given a value, it cannot be changed
+    example:
+        const a = "hello"
+
+        const a = "World" //This is not allowed
+        a="World" //This is not allowed
