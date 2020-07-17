@@ -1,6 +1,7 @@
 
+let input = prompt("Enter the name and version of your OS separated by space","Android 9"); 
 
-let x = prompt('Name and Version of your OS ','android 10');
+let x = input.split(" ");
 
-console.log(`The OS name and Version is ${x} `);
+console.log(`Name of the os is ${x[0]} and the Version is ${x[1]}`);
 
