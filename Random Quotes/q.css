@@ -1,0 +1,29 @@
+body{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(25, 199, 208);
+    font-family: comic sans-serif;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#demo{
+    font-size: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 60px;
+    background-color: rgb(112, 199, 25);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
